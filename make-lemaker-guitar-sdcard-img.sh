@@ -80,7 +80,7 @@ w
 EOF
 
 losetup -d $device
-device=`kpartx -va $image | sed -E 's/.*(loop[0-9])p.*/\1/g' | head -1`
+device=`kpartx -vsa $image | sed -E 's/.*(loop[0-9])p.*/\1/g' | head -1`
 device="/dev/mapper/${device}"
 echo ${device}
 
