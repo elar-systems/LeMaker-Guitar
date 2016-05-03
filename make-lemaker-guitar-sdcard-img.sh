@@ -1,7 +1,7 @@
 #!/bin/sh
 ###########################################################################################################
 # LeMaker Guitar SD Card Image Tool
-# Copyright (C) 2015 Saeid Ghazagh <sghazagh@elar-systems.com>
+# Copyright (C) 2015-2016 Saeid Ghazagh <sghazagh@elar-systems.com>
 #
 # http://www.elar-systems.com
 # http://www.elar-systems.com.au
